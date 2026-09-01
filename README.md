@@ -1,23 +1,83 @@
-Data Science Workflow Introduction
-1. What is Data Science?
+# Data Science Workflow – Dataset Exploration
 
-Data Science is an interdisciplinary field that uses statistics, mathematics, programming, data analysis, and machine learning to extract useful information and insights from data.
+## Overview
 
-It involves collecting, cleaning, exploring, analyzing, and interpreting data to solve problems and support decision-making.
+This project demonstrates a basic Data Science workflow using a real-world dataset. The project focuses on understanding the dataset, checking data quality, performing exploratory data analysis (EDA), creating visualizations, and documenting the findings.
 
-2. Data Science Lifecycle
+## Objectives
 
-A typical Data Science project follows these stages:
+* Understand the structure of the dataset.
+* Examine columns and data types.
+* Identify missing and duplicate values.
+* Analyze numerical and categorical variables.
+* Explore distributions and relationships between variables.
+* Identify important patterns and possible outliers.
+* Document the results of the analysis.
 
-Problem Definition – Understand the problem and define the objective.
-Data Collection – Gather the required data from relevant sources.
-Data Cleaning – Handle missing values, duplicates, incorrect data, and inconsistencies.
-Exploratory Data Analysis (EDA) – Explore the data using statistics and visualizations to identify patterns and relationships.
-Feature Engineering – Select, transform, or create useful features from the available data.
-Model Building – Apply suitable statistical or machine learning techniques.
-Model Evaluation – Evaluate the model using appropriate performance metrics.
-Deployment – Make the model or analysis available for practical use.
-Monitoring and Improvement – Monitor performance and update the solution when necessary.
-3. Project Objective
+## Project Structure
 
-The objective of this project is to understand the basic Data Science workflow by working with a beginner-friendly dataset and documenting the different stages involved in a Data Science project.
+```text
+.
+├── data/
+│   └── raw_dataset.csv
+│
+├── docs/
+│   ├── research_report.md
+│   └── dataset_exploration.md
+│
+├── .gitignore
+└── README.md
+```
+
+## Data
+
+The original dataset is stored in:
+
+`data/raw_dataset.csv`
+
+The dataset is used as the source for all analysis performed in this project.
+
+## Exploratory Data Analysis
+
+The dataset was examined through:
+
+* Dataset dimensions and structure
+* Column names and data types
+* Missing-value analysis
+* Duplicate-value analysis
+* Descriptive statistics
+* Numerical-variable distributions
+* Categorical-variable analysis
+* Outlier analysis
+* Correlation analysis
+* Data visualizations
+
+Detailed explanations of the visualizations and the observations obtained from them are available in:
+
+`docs/dataset_exploration.md`
+
+## Research Report
+
+A concise summary of the project methodology, major findings, and conclusion is available in:
+
+`docs/research_report.md`
+
+## Tools Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* vs code
+* Git and GitHub
+
+## Data Science Workflow
+
+The project follows these general stages:
+
+**Data Understanding → Data Quality Checking → Exploratory Data Analysis → Visualization → Interpretation → Documentation**
+
+## Outcome
+
+The project provides a documented exploratory analysis of the selected dataset and demonstrates the fundamental steps involved in a Data Science workflow, from understanding raw data to communicating analytical findings.
